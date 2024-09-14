@@ -26,6 +26,8 @@
     .music{
         width: auto;
         height: fit-content;
+        text-align: center;
+
     }
     .conciertos{
         width: auto;
