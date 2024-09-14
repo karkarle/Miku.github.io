@@ -64,7 +64,8 @@ p{
 }
 .miku-stand{
     position: relative;
-    left: 580px;
+    float: right;
+    right: 170px;
     height: 0;
     top: 55px;
     z-index: 1;
@@ -109,7 +110,9 @@ p{
 .music{
     width: 1024px;
     height: fit-content;
-    padding: 30px 46px;    
+    justify-content: center;
+    align-items: center;
+    padding: 20px 36px;    
     background-color: #ffffff;
 }
 
@@ -128,7 +131,7 @@ p{
 .prox{
     float: right;
     background-color: #eee;
-    height: 500px;
+    height: fit-content;
     width: 250px;
     display: inline-block;
     padding: 15px ;
@@ -138,7 +141,7 @@ p{
 .reci{
     float: left;
     background-color: #eee;
-    height: 500px;
+    height: fit-content;
     width: 250px;
     display: inline-block;
     padding: 15px;
@@ -147,7 +150,6 @@ p{
 .lista{
     list-style: none;
     align-items: center;
-    
 }
 .date{
     display: inline-block;
@@ -158,8 +160,8 @@ p{
 }
 .lugar{
     display: inline-block;
-    width: 176px;
-    height: 40px;
+    width: 156px;
+    height: 50px;
     font-size: small;
 }
 .lugar h2{
